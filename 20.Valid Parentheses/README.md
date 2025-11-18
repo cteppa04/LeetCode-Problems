@@ -33,5 +33,5 @@ An input string is valid if:
 
 Constraints:
 
-+ `1 <= s.length <= 10 <sup>4</sup> `
++ `1 <= s.length <= 10⁴`
 + `s` consists of parentheses only `'()[]{}'`.
