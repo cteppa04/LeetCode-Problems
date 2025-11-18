@@ -11,12 +11,13 @@ public:
     {
         string pref = "";
         bool BreakAll = false;
+        int i, j;
 
-        for (int i = 0; i < 200; i++)
+        for (i = 0; strs[0][i] != '\0'; i++)
         {
-            for (int j = 0; j < strs.size() - 1; j++)
+            for (j = 0; j < strs.size() - 1; j++)
             {
-                if(strs[j][i] == strs[j + 1][i] && strs[j].length())
+                if(strs[j][i] == strs[j + 1][i])
                 {
                     continue;
                 }
@@ -52,7 +53,7 @@ int main()
     for (int i = 0; i < vect.size(); i++)
     {
         cout << vect[i];
-        if (i + 1 == vect.size())
+        if (i + 1 != vect.size())
             cout << ", ";
     }
     cout << " = " << str << endl;
@@ -68,13 +69,13 @@ int main()
     }
     cout << " = " << str << endl;
 
-    vect = { "aa", "aa", "aa" };
+    vect = { "" };
     str = sol.longestCommonPrefix(vect);
     cout << "The logest prefix of: ";
     for (int i = 0; i < vect.size(); i++)
     {
         cout << vect[i];
-        if (i + 1 == vect.size())
+        if (i + 1 != vect.size())
             cout << ", ";
     }
     cout << " = " << str << endl;
