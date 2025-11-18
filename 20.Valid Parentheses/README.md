@@ -11,27 +11,27 @@ An input string is valid if:
  
 
 ## **Example 1:**
-> Input: s = "()"</br>
-> Output: true
+> **Input:** s = "()"</br>
+> **Output:** true
 
 ## **Example 2:**
-> Input: s = "()[]{}"</br>
-> Output: true
+> **Input:** s = "()[]{}"</br>
+> **Output:** true
 
 ## **Example 3:**
-> Input: s = "(]"</br>
-> Output: false
+> **Input:** s = "(]"</br>
+> **Output:** false
 
 ## **Example 4:**
-> Input: s = "([])"</br>
-> Output: true
+> **Input:** s = "([])"</br>
+> **Output:** true
 
 ## **Example 5:**
-> Input: s = "([)]"</br>
-> Output: false
+> **Input:** s = "([)]"</br>
+> **Output:** false
 
 
 Constraints:
 
-+ `1 <= s.length <= 10<sup>4</sup>`
++ `1 <= s.length <= 10 <sup>4</sup> `
 + `s` consists of parentheses only `'()[]{}'`.

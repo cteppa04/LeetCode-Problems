@@ -27,4 +27,4 @@ Given an integer `x`, return `true` *if* `x` *is a palindrome, and false otherwi
 
 ## **Constraints:**
 
-+ `-2<sup>31</sup> <= x <= 2<sup>31</sup> - 1`
++ `-2 <sup>31</sup> <= x <= 2 <sup>31</sup> - 1`
