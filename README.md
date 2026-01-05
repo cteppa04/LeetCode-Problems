@@ -1,5 +1,5 @@
-#LeetCode
-###LeetCode
+# LeetCode
+### LeetCode
 
 | # | Problem | Solution | Difficulty |
 |---|---------|----------|------------|
